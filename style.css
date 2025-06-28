@@ -1,0 +1,63 @@
+body {
+    font-size: large;
+    background: linear-gradient(to top, #ffe4e1 70%, #6d0947 30%);
+  }
+  .s{
+      text-align: center;
+      font-size: 300%;
+      width: 100%;
+      height: 50px;
+      padding-top: 1%;
+      font-weight: bold;
+      color: lavender;
+  }
+  .f {
+    max-width: 600px;
+    margin: 6% auto;
+    border: 2px double black;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .t {
+    text-align: left;
+    color: purple;
+    padding: 1%;
+    font-weight: bold;
+    font-size:xx-large;
+  }
+  
+  .faq-item {
+    color: black;
+  }
+  
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+    
+  }
+  .symbol {
+    font-size:large;
+    font-weight: bold;
+    float: right;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:black;
+    font-style: initial;
+  }
+  .faq-item.open .faq-answer {
+    display:block;
+  }
+  
+  .faq-item.open .symbol {
+    content: "-";
+  }
